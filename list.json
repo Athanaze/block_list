@@ -161,13 +161,13 @@
   },
 
   "Porn": {
-    "external_list": "https://raw.githubusercontent.com/Athanaze/block_list/main/porn.list"
+    "Monk VPN porn list": "https://raw.githubusercontent.com/Athanaze/block_list/main/porn.list"
   },
 
   "Mainstream news": {
-    "external_list": "https://raw.githubusercontent.com/Athanaze/news-websites/main/list"
+    "Monk VPN mainstream news list": "https://raw.githubusercontent.com/Athanaze/news-websites/main/list"
   },
   "Ads":{
-    "external_list": "https://raw.githubusercontent.com/Athanaze/block_list/main/ads.list"
+    "Monk VPN ads list": "https://raw.githubusercontent.com/Athanaze/block_list/main/ads.list"
   }
 }
