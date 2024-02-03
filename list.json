@@ -1,5 +1,5 @@
 {
-  "social_media": {
+  "Social media": {
     "instagram": ["instagram.com"],
     "twitter": ["twitter.com", "x.com", "nitter.net", "threadreaderapp.com"],
     "facebook": ["facebook.com"],
@@ -103,7 +103,7 @@
     "kick": ["kick.com"]
   },
 
-  "messaging": {
+  "Messaging": {
     "whatsapp": ["whatsapp.com"],
     "telegram": ["telegram.org"],
     "wechat": ["wechat.com"],
@@ -128,7 +128,7 @@
     "routee": ["routee.net"]
   },
 
-  "trading": {
+  "Trading": {
     "coingecko": ["coingecko.com"],
     "coinmarketcap": ["coinmarketcap.com"],
     "binance": ["binance.com"],
@@ -160,14 +160,14 @@
     "stake": ["hellostake.com"]
   },
 
-  "porn": {
+  "Porn": {
     "external_list": "https://raw.githubusercontent.com/Athanaze/block_list/main/porn.list"
   },
 
-  "news": {
+  "Mainstream news": {
     "external_list": "https://raw.githubusercontent.com/Athanaze/news-websites/main/list"
   },
-  "ads":{
+  "Ads":{
     "external_list": "https://raw.githubusercontent.com/Athanaze/block_list/main/ads.list"
   }
 }
