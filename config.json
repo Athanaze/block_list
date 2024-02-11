@@ -1,6 +1,6 @@
 [
-    {"city": "Miami", "country": "🇺🇸 ", "domain":"truthwillsetyoufree.online"},
-    {"city": "Paris", "country": "🇫🇷 ", "domain":"truthwillsetyoufree.online"},
-    {"city": "Tokyo", "country": "🇯🇵 ", "domain":"truthwillsetyoufree.online"},
-    {"city": "London", "country": "🇬🇧 ", "domain":"truthwillsetyoufree.online"}
+    {"city": "Miami", "country": "🇺🇸", "c_id":"QYX47CV", "flag_url":"https://raw.githubusercontent.com/Athanaze/block_list/main/us.svg", "vpn":"vpn0.truthwillsetyoufree.online"},
+    {"city": "Paris", "country": "🇫🇷", "c_id":"WRGBV12", "flag_url":"https://raw.githubusercontent.com/Athanaze/block_list/main/fr.svg", "vpn":"vpn1.truthwillsetyoufree.online"},
+    {"city": "Tokyo", "country": "🇯🇵", "c_id":"QAYGJH", "flag_url":"https://raw.githubusercontent.com/Athanaze/block_list/main/jp.svg", "vpn":"vpn2.truthwillsetyoufree.online"},
+    {"city": "London", "country": "🇬🇧", "c_id":"THBCSS", "flag_url":"https://raw.githubusercontent.com/Athanaze/block_list/main/gb.svg", "vpn":"vpn3.truthwillsetyoufree.online"}
 ]
