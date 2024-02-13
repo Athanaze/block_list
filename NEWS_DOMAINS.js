@@ -1,2 +1,3 @@
 /*THIS IS AN AUTO-GENERATED FILE, DO NOT EDIT DIRECTLY*/const NEWS_DOMAINS = [
+"reuters.com",
 ];
