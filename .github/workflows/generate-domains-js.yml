@@ -1,0 +1,35 @@
+name: Generate PORN_DOMAINS.js
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-domains-js:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Read domains.list file and generate PORN_DOMAINS.js
+        run: |
+          # Read domains.list file line by line and create PORN_DOMAINS.js
+          echo "const DOMAINS = [" > PORN_DOMAINS.js
+          while IFS= read -r line; do
+            echo "\"$line\"," >> PORN_DOMAINS.js
+          done < porn.list
+          echo "];" >> PORN_DOMAINS.js
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add PORN_DOMAINS.js
+          git commit -m "Update PORN_DOMAINS.js with latest domains"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
