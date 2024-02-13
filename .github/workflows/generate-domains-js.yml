@@ -1,4 +1,4 @@
-name: Generate PORN_DOMAINS.js
+name: Generate ADULT_DOMAINS.js
 
 on:
   push:
@@ -13,21 +13,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Read domains.list file and generate PORN_DOMAINS.js
+      - name: Read domains.list file and generate ADULT_DOMAINS.js
         run: |
-          # Read domains.list file line by line and create PORN_DOMAINS.js
-          echo "const DOMAINS = [" > PORN_DOMAINS.js
+          # Read domains.list file line by line and create ADULT_DOMAINS.js
+          echo "const DOMAINS = [" > ADULT_DOMAINS.js
           while IFS= read -r line; do
-            echo "\"$line\"," >> PORN_DOMAINS.js
+            echo "\"$line\"," >> ADULT_DOMAINS.js
           done < porn.list
-          echo "];" >> PORN_DOMAINS.js
+          echo "];" >> ADULT_DOMAINS.js
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add PORN_DOMAINS.js
-          git commit -m "Update PORN_DOMAINS.js with latest domains"
+          git add ADULT_DOMAINS.js
+          git commit -m "Update ADULT_DOMAINS.js with latest domains"
       
       - name: Push changes
         uses: ad-m/github-push-action@master
