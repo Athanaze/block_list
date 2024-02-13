@@ -1,4 +1,4 @@
-const DOMAINS = [
+/*THIS IS AN AUTO-GENERATED FILE, DO NOT EDIT DIRECTLY*/const ADULT_DOMAINS = [
 "ck.getcookiestxt.com",
 "eu1.clevertap-prod.com",
 "wizhumpgyros.com",
