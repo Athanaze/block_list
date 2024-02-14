@@ -1,5 +1,6 @@
 {
   "Social media": {
+    "All social media":["all"],
     "instagram": ["instagram.com"],
     "twitter": ["twitter.com", "x.com", "nitter.net", "threadreaderapp.com"],
     "facebook": ["facebook.com"],
@@ -104,6 +105,7 @@
   },
 
   "Messaging": {
+    "All messaging":["all"],
     "whatsapp": ["whatsapp.com"],
     "telegram": ["telegram.org"],
     "wechat": ["wechat.com"],
@@ -129,6 +131,7 @@
   },
 
   "Trading": {
+    "All trading":["all"],
     "coingecko": ["coingecko.com"],
     "coinmarketcap": ["coinmarketcap.com"],
     "binance": ["binance.com"],
@@ -161,6 +164,7 @@
   },
 
   "Shopping": {
+    "All shopping":["all"],
     "amazon": ["amazon.com"],
     "aliexpress": ["aliexpress.com"],
     "ebay": ["ebay.com"],
